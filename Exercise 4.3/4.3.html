@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 4</title>
+    <meta charset="utf-8">
+    <!--create a new stylesheet document and include it here-->
+
+</head>
+
+<body bgcolor="#f0ffff">
+<div class="container">
+    <h1>CIS 586/ DSC 530 Week 4: Markup and Style</h1>
+    <nav role="navigation" class="nav-bar">
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href=#IndividualProject>Individual Project</a></li>
+        <li><a href=#GroupProject>Group Project</a></li>
+    </ul>
+    </nav>
+</div>
+
+<a id="about"></a>
+<div class="about">
+    <h2>About Me:</h2>
+    <p>Hello, Myself Vijaya Lakshmi Priyanka Kusupudi. I am pursuing my masters in Computer and Information Science.
+    Currently am in second semester.I am very much curious to learn new technologies. I am having work experience of
+     2 years in Java, SQL and AWS .</p>
+
+</div>
+
+<a id="IndividualProject"></a>
+<div class="projects">
+    <div class="pro individual">
+        <h2>Individual Project</h2>
+        <img src="assets/WHR.png" alt="placeholder" width="500" height="250">
+        <p><b>Title:World Happiness Report</b></p>
+        <p><b>Data Source:Kaggle.com</b></p>
+        <p>
+            Link to data: <a href="https://www.kaggle.com/unsdsn/world-happiness">https://www.kaggle.com/unsdsn/world-happiness</a>
+        </p>
+
+
+
+        <p>
+            <b>Description</b>
+            In this project I wanted to calculate the happiness score for each country and visualize them using folium/Tableau based on the ranking.
+            The Happiness Score is calculated by the following factors:
+        <ol>
+        <li>GDP per capita</li>
+           <li>Healthy Life Expectancy</li>
+        <li>Social support</li>
+           <li>Freedom to make life choices</li>
+        <li>Generosity</li>
+          <li>  Corruption Perception</li>
+    </ol>
+
+
+        </p>
+
+        <p>
+            <b>Visualization Idea:</b>
+        <li>Geographical map with different countries using Folium</li><br>
+        <li>Ranking bar with different color</li><br>
+        <li>Horizontal bar with years on bottom</li><br>
+
+        </p>
+
+        <p>
+            <b>Output:</b>
+            Through this analysis, I want to show the ranking of different countries based on different factors.
+        </p>
+    </div>
+
+    <a id="GroupProject"></a>
+    <div class="projects">
+        <div class="pro group">
+            <h2>Group Project</h2>
+            <img src="assets/hosp_beds.png" alt="placeholder" width="500" height="250">
+            <p><b>Title:Hospital Beds Occupancy in US for COVID19</b></p>
+            <p>            <p><b>Data:Global Commodity Trade Statistics dataset</b></p>
+
+            Link to data: <a href="https://github.com/covidcaremap/covid19-healthsystemcapacity/blob/master/data/published/us_healthcare_capacity-county-CovidCareMap.csv">https://github.com/covidcaremap/covid19-healthsystemcapacity/blob/master/data/published/us_healthcare_capacity-county-CovidCareMap.csv</a>
+            </p>
+
+
+            <p>
+                <b>Description</b>
+               In this Project, we want to calculate the occupancy rate for every 1000 inhabitants
+                and based on the population we try calculating the available beds rate.
+                The dataset consists of the total number of licensed beds, staffed beds, ICU beds and total count of the utilization rates.
+                And based on these columns we will visualize the data in geographical way.
+            </p>
+
+            <p>
+                <b>Visualization Idea:</b>
+            <li>Design of world map using Folium </li><br>
+            <li>Design a color bar based on occupancy rate</li><br>
+            </p>
+            <p>
+                <b>Output:</b>
+                Gives us the beds occupancy for every county in all states
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
